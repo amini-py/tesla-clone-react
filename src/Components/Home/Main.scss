@@ -1,0 +1,91 @@
+.sub-text {
+    padding-top: 50px;
+
+    h1 {
+        font-size: 40px;
+        padding: 4px 0;
+    }
+
+    h2,
+    a {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Gotham";
+        letter-spacing: -.5px;
+    }
+
+    a {
+        border-bottom: 1px solid;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 525px;
+
+    button {
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+        padding: 4px 24px;
+        border-radius: 100px;
+        border: none;
+        opacity: .8;
+        cursor: pointer;
+    }
+
+    .order-button {
+        background-color: #171a20;
+        color: #fff;
+    }
+
+    .inventory-button {
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+        width: 90vw;
+
+        button {
+            width: 90%;
+        }
+
+        .order-button {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+span {
+    margin: 30px 0;
+    font-size: 200px;
+    color: #fff;
+    font-size: 28px !important;
+    transition: fill .3s ease, stroke .3s ease;
+    animation: Bounce infinite 1.75s;
+}
+
+@keyframes Bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    90%,
+    100% {
+        transform: translateY(0) rotate(90deg);
+    }
+
+    40% {
+        transform: translateY(4px) rotate(90deg);
+    }
+
+    60% {
+        transform: translateY(2px) rotate(90deg);
+    }
+}
