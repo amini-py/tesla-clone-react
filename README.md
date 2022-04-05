@@ -1,4 +1,4 @@
-[Tesla - link](https://tesla.com)
+# [Tesla - link](https://tesla.com)
 #### Tesla Clone - Project Show Case<br><br>
 #### Technologies used:
 - Scss
